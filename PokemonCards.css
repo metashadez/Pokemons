@@ -1,3 +1,27 @@
 body{
-background-color: purple;
+	background-color: purple;
+}
+.headerr{
+	position: fixed;
+	top: 0;
+	left: 50%;
+	transform: translate(-50%, 0);
+	background: black;
+	width: 80%;
+	height: 70px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}	
+.headerr nav a{
+	padding: 0 20px;
+}
+.text1{
+color: white;
+}
+.pikachu{
+height: 250px;
+}
+.main{
+	margin-top: 90px;
 }
