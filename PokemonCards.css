@@ -82,3 +82,37 @@ i{
 	font-size: 25px;
 	font-family: system-ui;
 }
+.buton{
+width:100%;
+height:35px;
+color:black;	
+}
+.filter {
+	display: flex;
+}
+.card button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #f00;
+  color: #fff;
+  font-size: 18px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.card button:hover {
+  background-color: #c00;
+}
+.filter-text{
+	font-size: 35px;
+}
+.form{
+	font-size: 24px;
+}
+.aa{
+	font-size: 22px;
+	color:white;
+	text-decoration:none;
+}
