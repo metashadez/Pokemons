@@ -5,6 +5,8 @@
 		<title>Buy Pokemon Cards</title> 
 	</head>
 	<body>
+	<div class="wrapper">
+	    <div>
 	<header class="headerr">
 			<nav>
 			  <a href="PokemonCards.html">Головна</a>
@@ -21,14 +23,28 @@
           <form class="form">
             <label for="name">Назва:</label>
             <input type="text" id="name" name="name">
-            <label for="universe">Всесвіт:</label>
+            <label for="universe">Підвид:</label>
             <select id="universe" name="universe">
-				<option value="">Оберіть всесвіт</option>
-				<option value="marvel">Marvel</option>
-				<option value="dc">DC</option>
-				<option value="star_wars">Зоряні війни</option>
+				<option value="">Оберіть підвид</option>
+				<option value="marvel">VMAX</option>
+				<option value="dc">GX</option>
+				<option value="star_wars">VSA</option>
+				<option value="dc">Custom</option>
+				<option value="dc">V</option>
+				<option value="dc">Vstar</option>
             </select>
-            <button type="submit">Фільтрувати</button>
+			<div class="form-radio">
+				<div>
+					<input type="radio">Новинка
+				</div>
+				<div>
+					<input type="radio">Найдешевіші
+				</div>
+				<div>
+					<input type="radio">Найдорогіші
+				</div>
+			</div>
+            <button class="submit-btn" type="submit">Фільтрувати</button>
           </form>
         </div>
 		<div class="cards">
@@ -94,7 +110,14 @@
 				</div>
 			</div>
 	</section>
-	
+	     </div>
+	 <footer class="pidval" align="center">
+		 	<p class="footer-links"><i class="far fa-envelope"></i><a href="mailto:pokemons@gmail.com">pokemons@gmail.com</a> | 
+			<i class="fas fa-phone"></i><a href="tel:+380964542823">+0964542823</a> |
+			<i class="fas fa-map-marker-alt"></i> <a class="color-link" href="">Location-Ukraine</a></p>
+			<p>Copyright @2023 | Designed With by <a class="dec-none" href="">Ihor</a></p>
+		</footer>
+	</div>
 	
 	
 	
